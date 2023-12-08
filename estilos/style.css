@@ -1,0 +1,38 @@
+@charset "UTF-8";
+
+/* 
+azul 1 : #00175B
+azul 2 : #002D7D
+azul 3 : #0249A1
+azul 4 : #0068C3
+
+*/
+
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: #0068C3 ;
+}
+
+
+main > section > div#imagem {
+    background-image: url(../imagens/fundo.jpg);
+    background-size: cover;
+    height: 500px;
+    width: 250px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+main {
+    background-color: white;
+    height: 800px;
+    width: 100%;
+    position: relative;
+}
