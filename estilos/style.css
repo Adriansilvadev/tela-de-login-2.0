@@ -48,7 +48,7 @@ section#login > div#imagem {
     background-image: url(../imagens/fundo.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    height: 40%;
+    height: 30%;
 }
 
 section#login > div#formulario > h1 {
@@ -65,3 +65,5 @@ section#login > div#formulario > p {
     font-weight: 500;
     padding: 5px;
 }
+
+section#login > 
